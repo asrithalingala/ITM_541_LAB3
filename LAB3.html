@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITMD 541 - LAB3 - ASRITHA LINGALA</title>
+    <link rel="stylesheet" href="Lab3.css">
+</head>
+
+<body>
+    <h1 class="lab-heading">ITMD 541 - LAB3 - ASRITHA LINGALA</h1>
+    <h2 class="calculator-heading">TIP CALCULATOR</h2>
+
+    <div class="calculator">
+        <form id="tipForm">
+            <div class="input-group">
+                <label for="billTotal" class="label-highlight">Bill Total:</label>
+                <input type="number" id="billTotal" required>
+            </div>
+
+            <div class="input-group">
+                <label class="label-highlight">Tip Slider:</label>
+                <input type="range" id="tipSlider" min="0" max="100">
+            </div>
+            <div class="input-group">
+                <label for="tipPercentage" class="label-highlight">Tip Percentage:</label>
+                <input type="text" id="tipPercentage" disabled>
+            </div>
+
+            <div class="input-group">
+                <label for="tipAmount" class="label-highlight">Tip Amount:</label>
+                <input type="text" id="tipAmount" disabled>
+            </div>
+
+            <div class="input-group" id="totalWithTipInput">
+                <label for="totalWithTip" class="label-highlight">Total Bill with Tip:</label>
+                <input type="text" id="totalWithTip" disabled>
+            </div>
+
+           
+        </form>
+    </div>
+    <div class="thanks-message">
+        <p>Customer Copy</p>
+    </div>
+
+    <div class="thanks-message">
+        <p>Thanks for coming! Plan your next party soon.</p>
+    </div>
+
+    <script src="LAB3.js"></script>
+</body>
+
+</html>

@@ -6,7 +6,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const totalWithTipInput = document.getElementById('totalWithTip');
     const tipPercentageInput = document.getElementById('tipPercentage');
 
-    function calculateTip() {
+    function calculateTip()
+     {
         const billTotal = parseFloat(billTotalInput.value);
 
         if (isNaN(billTotal)) {
